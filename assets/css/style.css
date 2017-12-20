@@ -1,0 +1,22 @@
+.jumbotron {
+    background: url('/assets/img/hero.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.navbar .navbar-brand {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 2rem;
+  color: #0D80EF;
+}
+
+.coaching {
+  border: 1px solid black;
+  font-size: 6rem;
+  color: #0D80EF;
+  text-align: center
+}
+
+.coaching > p {
+  font-size: 2rem;
+  color: #000;
+}
