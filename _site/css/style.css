@@ -1,12 +1,23 @@
 .jumbotron {
     background: url('../img/hero.jpg') no-repeat center;
     background-size: cover;
+    min-height: 450px
 }
 
 .navbar .navbar-brand {
   font-family: 'Cutive Mono', monospace;
   font-size: 2rem;
   color: #0D80EF;
+}
+
+a.nav-link {
+  font-family: 'Cutive Mono', monospace;
+  color: #8E9296;
+  font-size: 1.25rem;
+}
+
+a.nav-link:hover {
+  color: #4D;
 }
 
 .coaching {
