@@ -1,7 +1,27 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.heading {
+  text-align: center;
+}
+
 .jumbotron {
     background: url('../img/hero.jpg') no-repeat center;
     background-size: cover;
-    min-height: 450px
+    max-height: 100vh;
+    margin-top: 15px;
+}
+
+.container .jumbotron-header {
+  padding-top: 25%;
+}
+
+.container .jumbotron-header .lead {
+  color: #FFE015;
+  font-size: 2.4rem;
+  text-align: center;
 }
 
 .navbar .navbar-brand {
@@ -20,8 +40,9 @@ a.nav-link:hover {
   color: #4D;
 }
 
+/* COACHING STYLES */
 .coaching {
-  border: 1px solid black;
+  border-radius: 5px;
   font-size: 6rem;
   color: #0D80EF;
   text-align: center
